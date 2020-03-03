@@ -10,12 +10,13 @@ header {
   display: flex;
 }
 
-header .logo,
-header nav {
+
+header .logo, header nav {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
  }  
+
 
  .navigation{
   list-style:none;
@@ -29,14 +30,18 @@ header nav {
 display: flex;
 }
 
+
 /* feature */
 
 .feature {
   display:flex;}
   
+
 .feat-left, .feat-right {
     width: 50%;
   }
+
+
   /* cta */
   
   .cta .container {
@@ -44,21 +49,25 @@ display: flex;
   justify-content: space-around;
 }
 
+
 /* footer */
 footer {
   display:flex;
   justify-content: space-around;
 }
 
+
 .footernav {
   list-style: none;
 }
-          
+     
+
 .footer-left {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
 }
+
 
 .footer-right {
   display: flex;
